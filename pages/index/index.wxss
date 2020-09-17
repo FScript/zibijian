@@ -1,0 +1,10 @@
+ .image{
+width: 320px;
+height:360px ;
+ }
+
+.bottom {
+  border-radius: 80rpx;
+  margin: 50rpx 50rpx;
+  font-size: 45rpx;
+}

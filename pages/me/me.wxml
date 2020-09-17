@@ -1,0 +1,2 @@
+<view class="button"></view>
+<button bindtap="tomine" type="primary">点击查看预约成功的订单</button>

@@ -1,0 +1,23 @@
+
+<view class="remind">订单详情：</view>
+<view class='remind' wx:for="{{ne}}">
+    
+    <view>-------------------------------------</view>
+    <view>姓名：{{item.name}}</view>
+    <view>联系方式：{{item.phone}}</view>
+    <view >服务点：{{item.place}}</view>
+    <view >预定日期：{{item.date}}</view>
+    <view >开始时间：{{item.starttime}}</view>
+    <view >结束时间：{{item.overtime}}</view>
+    <view >主食：{{item.zhushi}}</view>
+    <view >饮料：{{item.drink}}</view>
+    <view >甜点：{{item.cake}}</view>
+</view>
+<view class='remind1'>地图导航（点击绿色按钮前往对应服务点）：</view>
+<button bindtap="click1" type="primary">前往昌平店</button>
+<view class="remind"></view>
+<button bindtap="click2" type="primary">前往东直门店</button>
+<view class="remind"></view>
+<button bindtap="click3" type="primary">前往西二旗店</button>
+    
+    

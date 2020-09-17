@@ -1,0 +1,12 @@
+<image class="image" mode="scaleToFill" src="cloud://text-cv85o.7465-text-cv85o-1300290847/3.jpg" ></image>
+
+<button bindtap="toyuding" type="primary" class='bottom'>前往预约</button>
+<view >
+    <view wx:if="{{canIUse}}" >
+        <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+            授权登录
+        </button>
+    </view>
+    <view wx:else>请升级微信版本</view>
+</view>
+

@@ -1,0 +1,62 @@
+<form bindsubmit="onSubmit">
+  <view class="remind">真实姓名</view>
+  <input type="text" class="shuru" name='title1'placeholder="请输入..." ></input>
+  <view class="remind">联系方式</view>
+  <input type="text" class="shuru" name='title3'placeholder='请输入...'></input>
+  <view class="section">
+    <view class="remind">请选择服务点</view>
+ <picker name="index1" bindchange="bindPickerChange" value="{{index1}}" range="{{array1}}">
+ <view class="shuru">
+  当前选择：{{array1[index1]}}
+ </view>
+ </picker>
+</view>
+<view class="section">
+    <view class="remind">请选择主食</view>
+ <picker name="index2" bindchange="Change1" value="{{index2}}" range="{{array2}}">
+ <view class="shuru1">
+  当前选择：{{array2[index2]}}
+ </view>
+ </picker>
+</view>
+<view class="section">
+    <view class="remind">请选择甜点</view>
+ <picker name="index3" bindchange="Change2" value="{{index3}}" range="{{array3}}">
+ <view class="shuru1">
+  当前选择：{{array3[index3]}}
+ </view>
+ </picker>
+</view>
+<view class="section">
+    <view class="remind">请选择饮料</view>
+ <picker name="index4" bindchange="Change3" value="{{index4}}" range="{{array4}}">
+ <view class="shuru1">
+  当前选择：{{array4[index4]}}
+ </view>
+ </picker>
+</view>
+<view class="section">
+ <view class="remind1">请选择预约日期及预约时间段</view>
+ <picker mode="date" name="date" value="{{date}}" start="2020-09-20" end="2020-10-20" bindchange="bindDateChange">
+ <view class="picker">
+ 日期: {{date}}
+ </view>
+ </picker>
+</view>
+<view class="section">
+ <picker mode="time" name="time1"value="{{time1}}" start="09:01" end="21:01" bindchange="bindTimeChange1">
+ <view class="picker">
+  开始时间: {{time1}}
+ </view>
+ </picker>
+</view>
+<view class="section">
+ <picker mode="time" name="time2" value="{{time2}}" start="{{time1}}" end="21:01" bindchange="bindTimeChange2">
+ <view class="picker">
+  结束时间: {{time2}}
+ </view>
+ </picker>
+</view>
+<button form-type="submit" type="primary">提交</button>
+<view class="tip">提示：订单提交成功后可在“我的订单”中查看</view>
+</form>

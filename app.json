@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/yuding/yuding",
+    "pages/me/me",
+    "pages/mine/mine"
+
+  ]
+  ,
+  "window": {
+  
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "自闭间预约",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+"color": "#000000",
+"selectedColor": "#D53C3E",
+"backgroundColor": "#ffffff",
+"borderStyle": "black",
+"position": "bottom",
+"list": [{
+"pagePath": "pages/yuding/yuding",
+"text": "我要预定",
+"iconPath": "pages/image/2.jpg",
+"selectedIconPath": "pages/image/11.jpg"
+},
+{
+  "pagePath": "pages/me/me",
+  "text": "我的订单",
+  "iconPath": "pages/image/1.jpg",
+  "selectedIconPath": "pages/image/22.jpg"
+}
+]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "usingComponents": {
+    "van-button":"vant-weapp/button"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置将用于路线导航" 
+    }
+  }
+ 
+}
