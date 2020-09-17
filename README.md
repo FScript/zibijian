@@ -11,3 +11,4 @@
 ![Image text](https://github.com/xxiaoyueyue/zibijian/blob/lala/image1/6.png)
 ![Image text](https://github.com/xxiaoyueyue/zibijian/blob/lala/image1/7.png)
 ![Image text](https://github.com/xxiaoyueyue/zibijian/blob/lala/image1/8.png)
+[部署教程：](https://v.qq.com/x/page/q3152rxnvoq.html?pcsharecode=Duu6rcjO)
