@@ -11,4 +11,6 @@
 ![Image text](https://github.com/xxiaoyueyue/zibijian/blob/lala/image1/6.png)
 ![Image text](https://github.com/xxiaoyueyue/zibijian/blob/lala/image1/7.png)
 ![Image text](https://github.com/xxiaoyueyue/zibijian/blob/lala/image1/8.png)
+[怎么从github上下载代码](https://jingyan.baidu.com/article/ad310e8009ff2a1848f49e45.html)
+[微信官方开发者工具如何导入小程序源码demo](https://blog.csdn.net/qq_42109089/article/details/80305002)
 [部署教程：](https://v.qq.com/x/page/q3152rxnvoq.html?pcsharecode=Duu6rcjO)
